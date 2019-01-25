@@ -6,7 +6,9 @@
 }
 
 html {
-  background-image: linear-gradient(#ffffff,#00064c61);
+  background-image: url(img/bg.jpg);
+  background-size: contain;
+  background-position: center center;
 }
 
 body {
