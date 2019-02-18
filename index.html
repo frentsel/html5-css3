@@ -10,19 +10,18 @@
 </head>
 
 <body>
-  <!-- header>(nav>ul>li*3>a>{Page $})+input -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="">Page 1</a></li>
-        <li><a href="">Page 2</a></li>
-        <li><a href="">Page 3</a></li>
-      </ul>
-    </nav>
-    <input type="text">
-  </header>
-  <!-- main>(aside>ul>li*5>a{Category $})+section>article*3>((h1>lorem5)+img[src="https://picsum.photos/100/100/?random$"]+p*2>lorem20) -->
-  <main>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="">Page 1</a></li>
+          <li><a href="">Page 2</a></li>
+          <li><a href="">Page 3</a></li>
+        </ul>
+      </nav>
+      <input type="text">
+    </header>
+    <!-- main>(aside>ul>li*5>a{Category $})+section>article*3>((h1>lorem5)+img[src="https://picsum.photos/100/100/?random$"]+p*2>lorem20) -->
     <aside>
       <ul>
         <li><a href="">Category 1</a></li>
@@ -32,48 +31,48 @@
         <li><a href="">Category 5</a></li>
       </ul>
     </aside>
-    <section>
+    <main>
       <article>
         <h1>Lorem ipsum dolor sit amet.</h1>
-        <img src="https://picsum.photos/100/100/?random1" alt="">
+        <img src="https://picsum.photos/100/100/?random&t=1" srcset="https://picsum.photos/200/200/?random&t=1 2x" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium quibusdam porro recusandae officia minima non maxime aperiam explicabo quaerat!</p>
         <p>Placeat sint molestiae mollitia nemo ducimus, dolorem recusandae adipisci qui, sapiente ullam aliquam commodi dolorum iste, dolore fugit tenetur et.</p>
       </article>
       <article>
         <h1>Omnis, eveniet id magni beatae.</h1>
-        <img src="https://picsum.photos/100/100/?random2" alt="">
+        <img src="https://picsum.photos/100/100/?random&t=2" srcset="https://picsum.photos/200/200/?random&t=2 2x" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex reprehenderit blanditiis dolor totam nam laboriosam eum, corporis deleniti, itaque veniam.</p>
         <p>Sint consequatur, doloribus deserunt laudantium repellat optio reiciendis aut recusandae quis. In aspernatur iusto odit perspiciatis! Tempore alias illo pariatur.</p>
       </article>
       <article>
         <h1>Doloremque eveniet nemo neque modi!</h1>
-        <img src="https://picsum.photos/100/100/?random3" alt="">
+        <img src="https://picsum.photos/100/100/?random&t=3" srcset="https://picsum.photos/200/200/?random&t=3 2x" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores optio delectus minus sunt suscipit aut eius, aliquam commodi nobis corporis?</p>
         <p>Soluta quas illo natus officia beatae error dignissimos, consectetur aperiam reprehenderit officiis unde veniam, magnam expedita labore impedit qui pariatur!</p>
       </article>
       <article>
         <h1>Esse rem explicabo, quidem quod.</h1>
-        <img src="https://picsum.photos/100/100/?random4" alt="">
+        <img src="https://picsum.photos/100/100/?random&t=4" srcset="https://picsum.photos/200/200/?random&t=4 2x" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut id ea illo voluptatem sunt neque facilis architecto saepe a nihil!</p>
         <p>Dolore magni perferendis quam repellat ad quae dolores modi repellendus veritatis blanditiis, id ipsum facere sunt! Voluptatem officia assumenda, eveniet?</p>
       </article>
       <article>
         <h1>Perspiciatis deleniti dolorem ut, officia.</h1>
-        <img src="https://picsum.photos/100/100/?random5" alt="">
+        <img src="https://picsum.photos/100/100/?random&t=5" srcset="https://picsum.photos/200/200/?random&t=5 2x" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil alias provident incidunt consequuntur molestias quasi magni porro illo, quae ipsam!</p>
         <p>Numquam, nihil at reprehenderit ratione exercitationem. Nemo consequuntur error, natus itaque earum facilis inventore ab cumque atque blanditiis deleniti ratione.</p>
       </article>
-    </section>
-  </main>
-  <!-- footer>(ul>li*3>a{Page $})+span{All right reserved &copy; A-Level 2019} -->
-  <footer>
-    <ul>
-      <li><a href="">Page 1</a></li>
-      <li><a href="">Page 2</a></li>
-      <li><a href="">Page 3</a></li>
-    </ul>
-    <span>All right reserved &copy; A-Level 2019</span>
-  </footer>
+    </main>
+    <!-- footer>(ul>li*3>a{Page $})+span{All right reserved &copy; A-Level 2019} -->
+    <footer>
+      <ul>
+        <li><a href="">Page 1</a></li>
+        <li><a href="">Page 2</a></li>
+        <li><a href="">Page 3</a></li>
+      </ul>
+      <span>All right reserved &copy; A-Level 2019</span>
+    </footer>
+  </div>
 </body>
 
 </html>
